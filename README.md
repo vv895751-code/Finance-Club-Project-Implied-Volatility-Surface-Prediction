@@ -1,0 +1,2 @@
+# Finance-Club-Project-Implied-Volatility-Surface-Prediction
+Reconstruct~5,460 missing implied volatility values across Nifty50 options(28 strikes, 975 timestamps)using a three-pass pipeline: cubic spline interpolation, no-lookahead time-series interpolation, and Gradient Boosting to correct biases. CE/PE surfaces modelled independently. Handled expiry-day IV spikes  MSE: ~0.006 normal hours, ~0.020 overall.
